@@ -1,43 +1,64 @@
-<img alt="Brendan Waterval, baseball analyst and data scientist, San Francisco" src="assets/banner.svg" width="100%">
+```text
+                   _._                                 _._
+                   | |                                 | |
+                ///| |                                 | |\\
+              //   |-|\                               /|-|  \\\
+           /// |   | | \\                           // | |  |  \\
+         // |  |   | |  |\\                       //   | |  |  | \\\
+      ///|  |  |   |-|  |  \\\                 /// |   |-|  |  |  | \\
+    //|  |  |  |   | |  |  |  \\\           /// |  |   | |  |  |  |  |\\
+  //  |  |  |  |   | |  |  |  |  \_________/ |  |  |   | |  |  |  |  |  \\
+// |  |  |  |  |   | |  |  |  |  |  |  |  |  |  |  |   | |  |  |  |  |  | \\
+===================|=|=================================|=|==================
+                   | |                                 | |
+  ~~~   ~~~~~     ~~   ~~~~      ~~~~   ~~~     ~~~~~   ~~    ~~~~   ~~~
+```
 
-<p>
-  <a href="https://www.linkedin.com/in/brendan-waterval"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-brendan--waterval-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:brendanwaterval@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-brendanwaterval%40gmail.com-E0533A?style=flat-square&logo=gmail&logoColor=white"></a>
-  <a href="https://vt-draft-intelligence.vercel.app"><img alt="Draft Intelligence" src="https://img.shields.io/badge/Live-Draft%20Intelligence-18243A?style=flat-square&logo=vercel&logoColor=white"></a>
-</p>
+# Brendan Waterval
 
-Data Scientist (graduate practicum) with **USF Baseball**, M.S. in Data Science and AI at the University of San
-Francisco, B.S. in Computational Modeling and Data Analytics from Virginia Tech, where I spent three years on the
-student baseball analytics team.
+I'm a grad student in data science at USF, and through my practicum I'm the data scientist for USF Baseball. Before
+that I did my undergrad in CMDA at Virginia Tech and spent three years on the student baseball analytics team there.
 
-### The questions I care about
+Most of my work is college baseball with TrackMan data: pitch grades, defensive metrics, and figuring out which
+numbers actually hold up from one season to the next. A lot of the time goes into checking my own models, like
+whether a catcher's framing follows him when he transfers or just stays with his old team.
 
-- **Is the number real?** Does it hold up when a player changes teams, and does it beat last year's stat at
-  predicting next year?
-- **What is it actually measuring?** A framing grade can be the catcher, the park, or the umpire. A pitch type can
-  be the pitch or the person running the TrackMan.
-- **Would a coach change a decision because of it?** If not, it stays a research note.
+[LinkedIn](https://www.linkedin.com/in/brendan-waterval) · brendanwaterval@gmail.com
 
-### Public work
+## Projects you can look at
 
-| | Project | What it shows |
-|:-:|---|---|
-| ⚾ | **[draft-intelligence](https://github.com/Brendanw1/draft-intelligence)** | MLB Draft projections for 10,734 NCAA D1 prospects from public data. Rolling year-out backtests beat a naive pick baseline by 17%, a live check on the 2026 draft, and a career WAR model held back because it failed its own release gates. |
-| 🎥 | **[pitch-tipping](https://github.com/Brendanw1/pitch-tipping)** | Pose estimation (MediaPipe) on pitcher stance images to flag tipped pitches. |
-| 🏀 | **[capstone-play-calls](https://github.com/Brendanw1/capstone-play-calls)** | Live sideline play-call console that Virginia Tech men's basketball used during games, replacing pen and paper (team capstone). |
+**[draft-intelligence](https://github.com/Brendanw1/draft-intelligence).** MLB Draft projections for about 10,700
+D1 prospects, built on public data. The pick model beats a naive baseline by 17% in year-out backtests. I also built
+a career WAR model and left it out because it failed the checks I set for it.
+[Live site](https://vt-draft-intelligence.vercel.app).
 
-### Private work
+**[pitch-tipping](https://github.com/Brendanw1/pitch-tipping).** Runs MediaPipe pose estimation on photos of a
+pitcher's set position and looks for differences between pitch types that a hitter could pick up on.
 
-Built on TrackMan and team data, so the code and data stay private. Aggregate write-ups are in progress.
+**[capstone-play-calls](https://github.com/Brendanw1/capstone-play-calls).** A sideline play-call tracker my
+capstone team built for Virginia Tech men's basketball. The staff used it during games in place of pen and paper.
 
-- **BaseballGOAT**: pitcher and hitter evaluation on 7.1M D1 TrackMan pitches. In college, the same pitch gets a
-  different name 22% of the time depending on the ballpark's operator, so I adapted a topological pitch tagger
-  (Maloof et al., 2026) and showed that grading pitches by class beats grading them by tag.
-- **D1 defensive metrics**: framing, catcher arm, blocking, and range in runs saved, tested on players who changed
-  teams and against official NCAA stats.
+**[LaneLine](https://github.com/Brendanw1/LaneLine).** An iOS bike navigation app for San Francisco that routes
+around stressful streets and steep hills, using DataSF and OpenStreetMap data.
 
-### Toolkit
+**[ticket-price-tracker](https://github.com/Brendanw1/ticket-price-tracker).** Watches resale prices on six ticket
+sites, adds the hidden fees back in so prices are comparable, and texts me when one drops below my target.
 
-`Python` `R` `SQL` `DuckDB` `LightGBM` `XGBoost` `mgcv` `brms/Stan` `Shiny` `Next.js` · `TrackMan` `Blast Motion`
-`TruMedia` `Statcast`
+**[bruteplot](https://github.com/Brendanw1/bruteplot).** A small matplotlib wrapper for bold, outlined charts with a
+colorblind-safe palette. It returns normal Figure and Axes objects, so it works with existing plotting code.
 
+## Private work
+
+These use TrackMan and team data, so the code stays private. I'm working on write-ups that only use aggregate
+numbers.
+
+**BaseballGOAT.** Pitcher and hitter grades on about 7 million D1 pitches. The most interesting thing I found is
+that college pitch tags depend a lot on who is running the TrackMan: nearly identical pitches get different names
+22% of the time across ballparks, compared with 3% within the same game. I adapted a topological pitch tagger
+(Maloof et al., 2026) so pitches are graded by class instead of by tag, and the grades got more stable.
+
+**D1 defensive metrics.** Framing, catcher arm, blocking, and range in runs saved, checked on players who changed
+teams and against official NCAA stats.
+
+I mostly work in Python, R, and SQL (DuckDB), with LightGBM, XGBoost, and mgcv for models, and Shiny or Next.js
+when something needs a front end.
