@@ -2,15 +2,15 @@
                  _^_                                         _^_
                 /| |                                         | |\
               // |=|                                         |=| \
-             /   | |\                                     //| |  \
-            /    | |  \                                   /  | |  |\
-           /|    |=|   \                               //   |=|  | \
-          / |    | |    |\                             / |   | |  |  \
-        //  |    | |    | \                         //  |   | |  |  |\           _/
-       / |  |    |=|    |  |\\                   /// |  |   |=|  |  | \        _/
-      /  |  |    | |    |  |  |\_             _// |  |  |   | |  |  |  \      /
-     /|  |  |    | |    |  |  |  |_____________ |  |  |  |   | |  |  |  |\   _/
-      |  |  |    | |    |  |  |  |  |  |  |  |  |  |  |  |   | |  |  |  |  _/
+             /|  | |\                                     //| |  \
+            / |  | |  \                                   /  | |  |\
+           /  |  |=|  |\                               //|  |=|  | \
+          /|  |  | |  |  \                             /  |  | |  |  \
+        // |  |  | |  |  |\                         //|  |  | |  |  |\           _/
+       /|  |  |  |=|  |  |  \\                   ///  |  |  |=|  |  | \        _/
+      / |  |  |  | |  |  |  |  \_             _//  |  |  |  | |  |  |  \      /
+     /  |  |  |  | |  |  |  |  |  _____________  |  |  |  |  | |  |  |  |\   _/
+     |  |  |  |  | |  |  |  |  |  |  |  |  |  |  |  |  |  |  | |  |  |  |  _/
 =================|+|=========================================|+|===========
    ###/\/\/\/\/\/|/|/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|/|/\/\/\/\/###
                  | |                                         | |
@@ -18,12 +18,16 @@
                 #####                                       #####
   ~~~~     ~~~      ~~~~~~      ~~      ~~~~       ~~~~      ~~~      ~~~~~      ~~~
         ~~        ~~~~       ~~        ~~~~~~      ~~      ~~~~~      ~~        ~~~~
+
+      Golden Gate Bridge, San Francisco  ·  home while I finish my M.S. at USF
 ```
 
 # Brendan Waterval
 
-I'm a grad student in data science at USF, and through my practicum I'm the data scientist for USF Baseball. Before
-that I did my undergrad in CMDA at Virginia Tech and spent three years on the student baseball analytics team there.
+I moved to San Francisco for a master's in Data Science and AI at the University of San Francisco, which I
+finish in July 2027. My practicum is with USF Baseball, where I'm the data scientist for the staff this fall and
+spring. Before USF I did my undergrad in CMDA at Virginia Tech and spent three years on the student baseball
+analytics team there.
 
 Most of my work is college baseball with TrackMan data: pitch grades, defensive metrics, and figuring out which
 numbers actually hold up from one season to the next. A lot of the time goes into checking my own models, like
