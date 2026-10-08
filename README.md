@@ -29,9 +29,7 @@ finish in July 2027. My practicum is with USF Baseball, where I'm the data scien
 spring. Before USF I did my undergrad in CMDA at Virginia Tech and spent three years on the student baseball
 analytics team there.
 
-Most of my work is college baseball with TrackMan data: pitch grades, defensive metrics, and figuring out which
-numbers actually hold up from one season to the next. A lot of the time goes into checking my own models, like
-whether a catcher's framing follows him when he transfers or just stays with his old team.
+Most of my work is translating messy data into actionable insights in college baseball: things like pitch grading/modeling, swing decisions analysis, game reports, defensive metrics, and figuring out which numbers actually hold up from one season to the next. A lot of the time goes into checking my own models over time and with limited sample sizes. 
 
 [LinkedIn](https://www.linkedin.com/in/brendan-waterval) · brendanwaterval@gmail.com
 
