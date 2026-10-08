@@ -1,13 +1,9 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Brendan Waterval, baseball analyst and data scientist" src="assets/banner-light.svg" width="100%">
-</picture>
+<img alt="Brendan Waterval, baseball analyst and data scientist, San Francisco" src="assets/banner.svg" width="100%">
 
 <p>
   <a href="https://www.linkedin.com/in/brendan-waterval"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-brendan--waterval-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:brendanwaterval@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-brendanwaterval%40gmail.com-c0392b?style=flat-square&logo=gmail&logoColor=white"></a>
-  <a href="https://vt-draft-intelligence.vercel.app"><img alt="Draft Intelligence" src="https://img.shields.io/badge/Live-Draft%20Intelligence-14213d?style=flat-square&logo=vercel&logoColor=white"></a>
+  <a href="mailto:brendanwaterval@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-brendanwaterval%40gmail.com-E0533A?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://vt-draft-intelligence.vercel.app"><img alt="Draft Intelligence" src="https://img.shields.io/badge/Live-Draft%20Intelligence-18243A?style=flat-square&logo=vercel&logoColor=white"></a>
 </p>
 
 Data Scientist (graduate practicum) with **USF Baseball**, M.S. in Data Science and AI at the University of San
@@ -45,5 +41,3 @@ Built on TrackMan and team data, so the code and data stay private. Aggregate wr
 `Python` `R` `SQL` `DuckDB` `LightGBM` `XGBoost` `mgcv` `brms/Stan` `Shiny` `Next.js` · `TrackMan` `Blast Motion`
 `TruMedia` `Statcast`
 
-<sub>Banner: pitch movement (horizontal break vs. induced vertical break) with the three pitch classes a topological
-tagger finds without labels. Points are illustrative, not real pitches.</sub>
