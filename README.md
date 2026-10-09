@@ -40,6 +40,11 @@ D1 prospects, built on public data. The pick model beats a naive baseline by 17%
 a career WAR model and left it out because it failed the checks I set for it.
 [Live site](https://vt-draft-intelligence.vercel.app).
 
+**[pitch-classes-statcast](https://github.com/Brendanw1/pitch-classes-statcast).** A label-free pitch classifier
+(after Maloof, Haumacher and Bonicki, 2026) tested on 2.1 million Statcast pitches. Its three pitch classes match
+Statcast 97.6% of the time and don't drift between ballparks, and once a pitch's shape is known, its name barely
+predicts anything about outcomes.
+
 **[pitch-tipping](https://github.com/Brendanw1/pitch-tipping).** Runs MediaPipe pose estimation on photos of a
 pitcher's set position and looks for differences between pitch types that a hitter could pick up on.
 
