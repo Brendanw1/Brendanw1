@@ -65,10 +65,8 @@ colorblind-safe palette. It returns normal Figure and Axes objects, so it works 
 These use TrackMan and team data, so the code stays private. I'm working on write-ups that only use aggregate
 numbers.
 
-**BaseballGOAT.** Pitcher and hitter grades on about 7 million D1 pitches. The most interesting thing I found is
-that college pitch tags depend a lot on who is running the TrackMan: nearly identical pitches get different names
-22% of the time across ballparks, compared with 3% within the same game. I adapted a topological pitch tagger
-(Maloof et al., 2026) so pitches are graded by class instead of by tag, and the grades got more stable.
+**BaseballGOAT.** Pitcher and hitter grades on about 7 million D1 pitches. I adapted a topological pitch tagger
+so pitches are graded by class instead of by human tag, and the grades got more stable.
 
 **D1 defensive metrics.** Framing, catcher arm, blocking, and range in runs saved, checked on players who changed
 teams and against official NCAA stats.
